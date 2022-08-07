@@ -3,10 +3,12 @@ using namespace std;
 int main()
 {
     /* average of even numbers less than 10000*/
-    for(int i=1;i<=10000;i++)
+    for(int i=2;i<=10000;i+=2)
     {
-    if(i%2==0)
-    cout<<i<<endl;
+     sum +=i;
+    }
+    int avg = sum/5000;
+    cout<< avg<<endl
     }
 }
 
